@@ -1,7 +1,7 @@
 <template>
   <div>
-    fdsfd
-    <router-view/>
+    <v-container>hello</v-container>
+    <!-- <router-view/> -->
   </div>
 </template>
 
