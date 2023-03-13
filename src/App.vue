@@ -142,6 +142,7 @@
 </template>
 
 <script>
+import Vue from 'vue';
 export default {
   name: "App",
   data: function() {
@@ -188,7 +189,7 @@ export default {
           return require(`./assets/images/MidasManifest/past.png`)
       }
     },
-    changeLocation: function(uuu){
+    changeLocation: function(){
       location.href = "https://fd1439sfl9sl9y26x7nht0r0l4.hop.clickbank.net/?tid=google"
     }
   },
