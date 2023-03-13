@@ -202,6 +202,9 @@ export default {
   },
 
   mounted: function() {
+    Vue.nextTick(() => {
+      document.title = "Midas manifestation"
+    })
   }
 };
 </script>
