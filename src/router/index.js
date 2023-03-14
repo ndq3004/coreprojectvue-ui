@@ -6,12 +6,18 @@ Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/MidasManifest',
-    name: 'MidasManifest',
+    path: '/',
+    name: 'home',
     component: MidasManifest,
     meta:{
       requiresAuth: true
-    }
+    },
+    children: [
+      {
+        path: "/MidasManifest",
+        component: MidasManifest
+      }
+    ]
   }
 ]
 
